@@ -1,13 +1,13 @@
 # Student Management System using Python
 
-A simple console-based Student Management System developed using Python. This project allows users to manage student records easily through a menu-driven program.
+A simple console-based Student Management System developed using only Python. This project helps users manage student records easily.
 
 ## Features
 
 * Add student records
-* View all student records
-* Search for a student
-* Update student details
+* View all students
+* Search student records
+* Update student records
 * Delete student records
 * Save student data permanently
 
@@ -31,18 +31,17 @@ A simple console-based Student Management System developed using Python. This pr
 
 ## How to Run
 
-1. Install Python on your computer.
-2. Open the project folder in VS Code.
-3. Open the terminal.
-4. Run the following command:
+1. Install Python from [python.org](https://www.python.org/) (While installing, tick `Add python.exe to PATH`)
+2. Download this project folder
+3. Double-click on `student_management.py` to run the program
+
+**Alternative method:**
+
+If the window closes quickly, open Command Prompt in the project folder and run:
 
 ```bash
 python student_management.py
 ```
-
-## Data Storage
-
-Student records are stored in a `students.json` file. The file is created automatically when the first student is added.
 
 ## Project Structure
 
@@ -50,9 +49,14 @@ Student records are stored in a `students.json` file. The file is created automa
 Student-Management-System/
 │
 ├── student_management.py
+├── students.json
 └── README.md
 ```
 
+## Data Storage
+
+Student records are stored in a JSON file named `students.json`. This keeps the data saved even after you close the program.
+
 ## Purpose
 
-This project was created to practice Python programming concepts and build a simple real-world application for managing student records.
+This project was developed to practice basic Python programming concepts such as functions, loops, lists, dictionaries, and file handling.
